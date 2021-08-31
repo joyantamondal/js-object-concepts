@@ -19,5 +19,6 @@ const heroBalam = {
     money: 6000
 }
 johnDoe.treatDay(1000);
+// create bind for using a specific methor from another function
 const heroTreatDey = johnDoe.treatDay.bind(heroBalam);
 heroTreatDey(1000);
